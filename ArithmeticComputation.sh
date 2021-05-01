@@ -10,3 +10,5 @@ echo $(($a+$b*$c))
 echo $(($a*$b+$c))
 # here solving branch UC4 c+a/b operation
 echo $(($C+$a/$b))
+# here solving branch UC5 a%b +c operation
+echo "$(($a%$b +c))"

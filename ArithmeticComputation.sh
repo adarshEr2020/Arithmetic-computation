@@ -8,3 +8,5 @@ read -p "Enter value for c :" c
 echo $(($a+$b*$c))
 # here we are solving branch UC3
 echo $(($a*$b+$c))
+# here solving branch UC3 c+a/b operation
+echo $(($C+$a/$b))
